@@ -1,0 +1,51 @@
+h1{
+	font-family: Trebuchet MS; /* Changer la police du titre principale */
+}
+
+h3{
+	font-family: Trebuchet MS; /* Changer la police des aides d'information nom et mot de passe */
+}
+
+input{
+	font-family: Trebuchet MS; /* Changer la police des entrées de textes */
+}
+
+body{
+	margin: 75px; /* augmenter la marge */
+	background-image: url("flag.png"); /* Mettre une image en fond */
+	background-size: 101%; /* augmenter la taille de l'image */
+}
+
+.connection{
+	background-color: #7cfc00; /* Changer la couleur de la div */
+	border-width:30px; /* Changer la taille de la marge */
+ 	border-style:solid; /* Parametre de la texture de la marge */
+ 	border-color:#7cfc00; /* Changer la couleur de la marge */
+ 	border-radius: 25px; /* rayon en pixel de l'arrondit de la div */
+ 	display: inline-block; /* ajuster la taille de la div à son contenu */
+
+}
+
+/* Modification de la class "connection" pour c'est paramère quand elle est survolé. */
+.connection:hover{
+	box-shadow: 6px 6px 3px black; /* définition de l'hombre : côté hauteur addoussicement couleur */
+	transition: 0.3s; /* délais pour une animation plus fluide */
+}
+
+.connection_button{
+	border-radius: 10px; /* rayon en pixel de l'arrondi des angles du bouton */
+	height: 30px; /*changer la hauteur du bouton */
+  	width: 100px; /* changer la lagreur du bouton */
+
+}
+
+.connection_button:hover{
+	background-color: black;
+	color: white;
+}
+
+.connection_button:active{
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
