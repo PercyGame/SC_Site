@@ -12,7 +12,7 @@ input{
 
 body{
 	margin: 75px; /* augmenter la marge */
-	background-image: url("flag.png"); /* Mettre une image en fond */
+	background: url("flag.png") no-repeat fixed; /* Mettre une image en fond */
 	background-size: 101%; /* augmenter la taille de l'image */
 }
 
@@ -45,7 +45,66 @@ body{
 }
 
 .connection_button:active{
-	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
+	box-shadow: inset -2px -2px 3px; /* définition de l'hombre : côté hauteur addoussicement couleur */
+                
 }
 
+.name:hover{
+	box-shadow: 3px 3px 3px black; /* définition de l'hombre : côté hauteur addoussicement couleur */
+}
+
+.password:hover{
+	box-shadow: 3px 3px 3px black; /* définition de l'hombre : côté hauteur addoussicement couleur */
+}
+
+.menu_div_1{
+	background-color: #5776da;
+	border-width:30px; /* Changer la taille de la marge */
+ 	border-style:solid; /* Parametre de la texture de la marge */
+ 	border-color:#5776da; /* Changer la couleur de la marge */
+ 	position:absolute;
+ 	top:0;
+ 	right:0;
+ 	display: inline-block;
+ 	color:black;
+}
+
+.menu_button_1{
+	color: black;
+	font-family: Trebuchet MS;
+	font-size: 30px;
+}
+
+.menu_button_1:hover{
+	color: white;
+}
+
+.zoneLecture{
+	background-color: white;
+	color: black;
+	font-family: Trebuchet MS;
+}
+
+.go_to_menu_button{
+	font-family: Trebuchet MS;
+	font-size: 25;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #5776da;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #5776da;
+	color: black;
+}
+
+.go_to_menu_button:hover{
+	background-color: black;
+	border-width: 5px;
+	border-color: black;
+	color: white;
+}
+
+.zoneLecture{
+	opacity: 50%;
+}
